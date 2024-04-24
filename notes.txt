@@ -1,0 +1,7 @@
+day 3
+Simple one rule:
+=Filename: Capitalize e.g. Chai
+=File Extension: Always .jsx
+=It doesn't matter if I return JSX or only Vanilla JS.  It simplifies my coding life a bit.
+=learnt about react-scripts function in create-react-app vs adding scripts manually in vite
+=understood about fragmentation
