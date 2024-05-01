@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 //here react makes it easy to add javascript with html but to make it update in the website,it is all in the control of react hooks
 function MyApp(){
@@ -9,9 +10,9 @@ function MyApp(){
 
 
   const addValue=()=>{
-    counter=counter+1
+    
     if (counter<=20){
-      setCounter(counter)
+      setCounter(counter=>counter+1)
     }
     else{
       counter=20
@@ -21,14 +22,14 @@ function MyApp(){
     console.log(counter);
   }
   const removeValue=()=>{
-    counter=counter-1
+    
     if (counter>=0) {
-      setCounter(counter) }
+      setCounter(counter-1) }
     else{
       counter=0
     }
     
-    console.log(counter);
+    // console.log(counter);
   }
   return(
     <>
